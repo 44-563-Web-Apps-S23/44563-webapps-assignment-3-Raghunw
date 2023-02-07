@@ -60,18 +60,13 @@
   <h3> HTML Stack overflow </h3>
   <blockquote cite="HTML input fields as paragraph"></blockquote>
   <a href="https://stackoverflow.com/questions/75366068/html-input-fields-as-paragraph"> html stack overflow</a>
-   <pre>
-  <form action="iframe.php" target="my-iframe" method="post">
-			
-    <label for="text">Some text:</label>
-    <input type="text" name="text" id="text">
-              
-    <input type="submit" value="post">
-              
-  </form>
-  
-  </pre>
+    <pre>
+     <form method="post" action="upload.php" enctype="multipart/form-data">
+        <input name='uploads[]' type="file" multiple>
+        <input type="submit" value="Send">
+      </form>
+    </pre>
 
-  <a href="https://css-tricks.com/snippets/html/post-data-to-an-iframe/">Post Data to an Iframe</a>
+  <a href="https://css-tricks.com/snippets/html/multiple-file-input/">Multiple File Input</a>
 
 </html>
